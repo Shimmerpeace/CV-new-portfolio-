@@ -8,12 +8,9 @@ body {
 }
 
 nav * {
-
-  margin: 0;
-  
+  margin: 0;  
   padding: 0;
 }
-
 
 nav {
   position: fixed;
@@ -22,7 +19,7 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-between;
-  background-color: #35424a;
+  background-color: #6e7783;
   margin-bottom: 1500px;  
   padding-top: 30px;
   border-bottom: blanchedalmond 3px solid;
@@ -34,20 +31,15 @@ nav {
 }
 
 .main-menu a:link,
-
 .main-menu a:visited {
 color: #ffffff; 
   padding: 10px 20px;
-
   text-align: center;
-
-  text-decoration: none;
- 
+  text-decoration: none; 
   display: inline-block;
  height: 100%;
  align-items: center;
 }
-
 /*
 .innercontainer {
   display: flex;
@@ -87,11 +79,12 @@ li:hover .dropdown {
 1. Set the background image on your desired element (usually the body or a container div):*/
 
 .main {
-  background-image: url("/storage/emulated/0/Pictures/Screenshots/Screenshot_2024-12-15-22-45-45-516 (1).jpeg");
+  background-image: url("/storage/emulated/0/Download/Pink and Black Modern Initials Logo Design-3.jpg");
  background-size: cover;
  background-position: center center;
  background-attachment: fixed;
  background-repeat: no-repeat;
+ margin: 15px;
 }
 /*
 
@@ -104,36 +97,32 @@ li:hover .dropdown {
 }
 */
 header {
+ color: white;
   text-align: center;
   font-size: 40px;
   width: 100%;
   height: 450px;
   margin: 20px 0 50px 0;
+ text-shadow: 3px 3px 4px grey;
 }
 
 #greeting {
-  font-style: italic; 
-
-  text-shadow: 3px 3px 4px azure;
-
+  font-style: italic;
   text-decoration-line: underline;
-  text-align: center;
-
   font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", serif;
-
 }
 
-
 .me {
-  display: flex;
-  background-color: white;
+ display: flex;
+ background-color: white;
  box-shadow: 0 0 10px rgba(0,0,0,0.1);
  box-shadow: 2px 10px 30px grey;
 }
 
 #profile-image {
-  border-radius: 1000px;
+ border-radius: 0;
  padding: 40px;
+ margin: auto;
 }
 
 #about-me {
@@ -143,6 +132,7 @@ header {
 
 #skills {
  background-color: white;
+ padding: 50px 0; 
 }
 
 .skills {
@@ -150,12 +140,14 @@ header {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-evenly;
+ padding: 10px 0;
 }
 
 .skill {
-  background-color: #ebb248;
+  background-color: #192a56;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+ color: white;
 }
 
 h2 {
@@ -164,17 +156,18 @@ h2 {
 
 .projects {
   background-color: white;
-  padding: 10px;
+  padding: 20px 0;
   
 }
 
 .projects .project {
   display: flex;
-  background-color: lightgrey;
+  background-color: #192a56;
+ color: white;
   /*border: 2px solid #acbce7;*/
   border-radius: 10px;
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
  box-shadow: 2px 10px 30px dimgray;
 }
 
@@ -185,19 +178,34 @@ h2 {
   border-bottom-right-radius: 8px;
 }
 
-.photo {
+.photo, .animated-image {
   width: 50%;
   border-radius: 10px;
 }
 .details {
   width: 50%;
-  
 }
 
+.animated-image {
+/*  width: 300px;
+  height: 300px;*/
+  background-size: cover;
+  animation: imageChange 12s infinite;
+ 
+}
+
+@keyframes imageChange {
+ 0%, 100% {
+ background-image: url("/storage/emulated/0/Download/0098656d-7155-4e7c-a8e6-7b167330b6f2.jpeg");
+ }
+ 50% {
+ background-image: url("/storage/emulated/0/Download/076edbde-06bb-4ee5-a293-7d2a828b8717.jpeg");  
+ }
+}
 .experience {
   background-color: white;
-  margin: 20px 0;
-  padding: 20px;
+  
+  padding: 20px 0; 
  /* border-radius: 10px;
   /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
 }
@@ -207,6 +215,17 @@ h2 {
   justify-content: space-between;
 }
 
+.each-experience {
+ border-radius: 10px;
+ box-shadow: 2px 10px 30px dimgray;
+ padding: 20px;
+ margin-bottom: 50px;
+}
+
+.education {
+ background-color: white;
+ padding: 20px 0;
+}
 .education li {
   list-style-type: none;
   background-repeat: no-repeat;
@@ -227,17 +246,21 @@ h2 {
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   color: white;
   padding: 6px;
-  justify-content: space-between;
-  align-items: center;
+/*  justify-content: space-between;*/
+  text-align: center;
  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
+.topic {
+ color: chocolate;
+}
+
 .icon-container {
-  display: flex;
+ /* display: flex;*/
   align-items: center;
 }
 
@@ -289,5 +312,4 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
-  }
-  
+}
