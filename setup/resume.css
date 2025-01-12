@@ -209,10 +209,10 @@ h2 {
 }
 @keyframes cafeChange {
  0%, 100% {
- background-image: url("/storage/emulated/0/Download/0098656d-7155-4e7c-a8e6-7b167330b6f2.jpeg");
+ background-image: url("photo1.jpeg");
  }
  50% {
- background-image: url("/storage/emulated/0/Download/076edbde-06bb-4ee5-a293-7d2a828b8717.jpeg");  
+ background-image: url("photo2.jpeg");  
  }
 }
 
@@ -222,10 +222,10 @@ h2 {
 }
 @keyframes bioChange {
  0%, 100% {
- background-image: url("/storage/emulated/0/Download/db0b6012-fb7e-4687-9135-349e2dabb11e.jpeg");
+ background-image: url("photo3.jpeg");
  }
  50% {
- background-image: url("/storage/emulated/0/Pictures/Screenshots/Screenshot_2025-01-12-07-38-09-445.jpeg");  
+ background-image: url("photo4.jpeg");  
  }
 }
 
