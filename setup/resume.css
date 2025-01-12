@@ -291,11 +291,11 @@ h2 {
 }
 
 .hsrw {
-  background-image: url("/storage/emulated/0/Download/download.png");
+  background-image: url("download.png");
 }
 
 .unizik {
-  background-image: url("/storage/emulated/0/Download/download-1.png");
+  background-image: url("download-1.png");
 }
 
 #hobbies {
