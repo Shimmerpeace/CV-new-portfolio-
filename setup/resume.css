@@ -235,11 +235,10 @@ h2 {
 }
 @keyframes layoutChange {
  0%, 100% {
- background-image: url(
-  "/storage/emulated/0/Download/a722afad-1fe1-4660-9156-2ea887c3b4db.jpeg");
+ background-image: url("photo5.jpeg");
  }
  50% {
- background-image: url("/storage/emulated/0/Pictures/Screenshots/Screenshot_2025-01-12-07-41-57-385.jpeg");  
+ background-image: url("photo6.jpeg");  
  }
 }
 
@@ -249,10 +248,10 @@ h2 {
 }
 @keyframes formChange {
  0%, 100% {
- background-image: url("/storage/emulated/0/Download/c21a462f-ebfe-40df-a0eb-70c260aea1df.jpeg");
+ background-image: url("photo7.jpeg");
  }
  50% {
- background-image: url("/storage/emulated/0/Pictures/Screenshots/Screenshot_2025-01-12-13-44-23-940.jpeg");  
+ background-image: url("photo8.jpeg");  
  }
 }
 
