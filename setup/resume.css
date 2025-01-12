@@ -87,7 +87,7 @@ li:hover .dropdown {
 1. Set the background image on your desired element (usually the body or a container div):*/
 
 .main {
-  background-image: url("/storage/emulated/0/Download/Pink and Black Modern Initials Logo Design-3.jpg");
+  background-image: url("Logo Design-3.jpg");
  background-size: cover;
  background-position: center center;
  background-attachment: fixed;
